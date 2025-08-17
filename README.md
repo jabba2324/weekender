@@ -39,4 +39,4 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
-Feel free to submit issues and pull requests to improve the idea generation or add new tech stack options.
+Feel free to submit issues and pull requests to improve the idea generation or add new tech stack options. Check out the projects folder to see what other people have built.
