@@ -3,15 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Weekender - Weekend Web App Ideas</title>
+    <title>The Weekender - Weekend App Ideas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1>🚀 The Weekender</h1>
-        <p class="subtitle">Generate a random web app idea you can build in a weekend!</p>
+        <p class="subtitle">Generate a random app idea you can build in a weekend!</p>
         
         <input type="password" class="api-key-input" id="apiKey" placeholder="Enter your OpenAI API key">
+        
+        <div class="difficulty-toggle">
+            <label class="toggle-label">
+                <input type="checkbox" id="hardMode">
+                <span class="toggle-slider"></span>
+                <span class="toggle-text">Hard Mode</span>
+            </label>
+        </div>
+        
         <button class="generate-btn" onclick="generateIdea()" id="generateBtn">Generate Weekend Project</button>
         
         <div class="result" id="result">

@@ -126,3 +126,44 @@ h1 {
     gap: 0.5rem; 
     font-size: 1.1rem;
 }
+.difficulty-toggle {
+    margin-bottom: 1rem;
+}
+.toggle-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+.toggle-slider {
+    width: 50px;
+    height: 24px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.3s;
+}
+.toggle-slider:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    top: 2px;
+    left: 2px;
+    transition: all 0.3s;
+}
+#hardMode {
+    display: none;
+}
+#hardMode:checked + .toggle-slider {
+    background: #ff6b6b;
+}
+#hardMode:checked + .toggle-slider:before {
+    transform: translateX(26px);
+}
+.toggle-text {
+    color: white;
+    font-size: 1rem;
+}

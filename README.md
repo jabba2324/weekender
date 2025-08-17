@@ -1,10 +1,10 @@
 # 🚀 The Weekender
 
-A web app that generates random AI-powered web application ideas you can build in a weekend, complete with suggested tech stacks.
+A web app that generates random AI-powered application ideas you can build in a weekend, complete with suggested tech stacks.
 
 ## Features
 
-- **AI-Powered Ideas**: Uses OpenAI's GPT-4o to generate creative web app concepts
+- **AI-Powered Ideas**: Uses OpenAI's GPT-4o to generate app concepts
 - **Random Tech Stacks**: Suggests diverse technology combinations including:
   - Frontend frameworks (React, Vue, Svelte, etc.)
   - Backend languages (Node.js, Python, Go, etc.)
