@@ -1,6 +1,6 @@
 # 🚀 The Weekender
 
-A web app that generates random AI-powered application ideas you can build in a weekend, complete with suggested tech stacks.
+A web app that generates random AI-powered application ideas you can build in a weekend, complete with suggested tech stacks. You can join like minded weekenders at our discord community https://discord.gg/aQTs7XPN
 
 ## Features
 
