@@ -69,7 +69,6 @@ async function generateIdea() {
                     role: 'user',
                     content: 'Generate a web app idea that uses generative AI and can be built in a weekend, the idea should be some kind of utility or tool. Return a JSON object with: title (string), description (string), and userFlows (array of 3 strings).'
                 }],
-                max_tokens: 200,
                 response_format: { type: 'json_object' }
             })
         });
@@ -79,7 +78,7 @@ async function generateIdea() {
         if (!data.choices || !data.choices[0] || !data.choices[0].message.content) {
             throw new Error('Empty response from API');
         }
-        
+        console.log(data.choices[0].message.content)
         const appData = JSON.parse(data.choices[0].message.content);
         
         const stack = {
