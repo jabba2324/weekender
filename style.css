@@ -184,9 +184,9 @@ h1 {
 }
 .community-links {
     display: flex;
-    gap: 1rem;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
 }
 .repo-link {
     display: inline-block;
