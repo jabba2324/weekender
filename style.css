@@ -167,3 +167,32 @@ h1 {
     color: white;
     font-size: 1rem;
 }
+.submission-invite {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: rgba(255,255,255,0.1);
+    border-radius: 15px;
+    text-align: center;
+}
+.submission-invite h3 {
+    color: #ffd93d;
+    margin-bottom: 0.5rem;
+}
+.submission-invite p {
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
+}
+.repo-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s;
+}
+.repo-link:hover {
+    background: rgba(255,255,255,0.3);
+    transform: translateY(-2px);
+}
